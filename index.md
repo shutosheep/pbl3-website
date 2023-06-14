@@ -114,8 +114,8 @@ System stakeholders for the website may include
 
 Click each link to view their literature review!
 
-- [Geolocation and mapping Technology with Smart City - by Manami Yano](/manami-lr.html)
-- [Daya sources and APIs with Smart City - by Shuto Tamaoka](/shuto-lr.html)
+- [Geolocation and mapping Technology with Smart City - by Manami Yano](manami-lr.html)
+- [Daya sources and APIs with Smart City - by Shuto Tamaoka](shuto-lr.html)
 - [Smart city initiatives and related applications- by Wei xiaoang](wei-lr.html)
 - [User Experience and interface design with Smart City - by Sun Wenhuan](sun-lr.html)
 - [Extensive data collection, How to use the data with Smart City - by Yang Minxu](yang-lr.html)

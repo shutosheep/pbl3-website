@@ -2,20 +2,11 @@
 
 files=$(ls *.md | sed -e 's/.md$//g')
 
+rm *.html
+
 for i in $files:
 do
     # fix some weird errors
     name=$(echo $i | tr -d :)
-    pandoc $name.md -f markdown -t html -s -o tmp-$name.html -c simple-v1.css
-
-    # if [ "$i" = "final-idea" ]; then
-    #     cp to-add.html index.html
-    #     cat tmp-$i.html >> index.html
-    # else
-    #     cp to-add.html "$i.html"
-    #     cat tmp-$i.html >> "$i.html"
-    # fi
-
+    pandoc $name.md -f markdown -t html -s --metadata title="PBL3 Group I website" -o $name.html -c simple-v1.css
 done
-
-#rm tmp-*.html
