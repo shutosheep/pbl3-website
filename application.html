@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+        <title>PBL3 Group I website</title>
+        <link rel="stylesheet" href="simple.css" />
+    </head>
+    <body>
+        <header id="title-block-header">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About us</a>
+                <a href="application.html">Application</a>
+                <a href="progress.html">Progress</a>
+                <a href="lr.html">Literature Review</a>
+                <a href="survey.html">Survey</a>
+            </nav>
+            <h1 class="title">PBL3 Group I website</h1>
+        </header>
+        <h1>Application</h1>
+        <h2>Our application</h2>
+        <p>
+        <b>Vending machine finder</b>
+        <br>This app’s objective is to give users a simple way to locate nearby vending machines and obtain pertinent details including menu items, costs, and other essential data. For easy accessibility across various devices, the app will be developed as a website.</p>
+        <h2>Application features</h2>
+        <p>The vending machine app will include the following core features:</p>
+        <ul>
+            <li>Location-based Search:
+                <ul>
+                    <li>The API may include geolocation information for each vending machine, allowing for insights into the distribution and placement of devices.</li>
+                </ul></li>
+                <li>Detailed Information:
+                    <ul>
+                        <li>The app includes sales data, inventory information, machine performance metrics, consumer interaction data, and environmental condition (more than 700,000 data, only focused on Japan).</li>
+                    </ul></li>
+                    <li>Sales data:
+                        <ul>
+                            <li>It includes the quantity and type of beverages sold, prices, and timestamps of each transaction</li>
+                        </ul></li>
+                        <li>Inventory Information:
+                            <ul>
+                                <li>It includes the current inventory of the vending machines.</li>
+                            </ul></li>
+                            <li>Machine performance metrics:
+                                <ul>
+                                    <li>It includes the operational status of the vending machines including uptime, downtime, maintenance records, and error reports.</li>
+                                </ul></li>
+                                <li>Consumer interaction data:
+                                    <ul>
+                                        <li>API capture data on consumer behavior including frequency of usage, popular beverage choices, and trends in purchasing patterns.</li>
+                                    </ul></li>
+                                    <li>Environmental condition:
+                                        <ul>
+                                            <li>It includes temperature, humidity, and power consumption of vending machines.</li>
+                                        </ul></li>
+                                        <li>Personalization:
+                                            <ul>
+                                                <li>It allows users to set filters to find specific items such as water</li>
+                                            </ul></li>
+                                            <li>Ratings and Reviews (social sharing):
+                                                <ul>
+                                                    <li>It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap beverages or is broken.</li>
+                                                </ul></li>
+        </ul>
+        <p>All information is included in Coca-Cola bottlers Japan API</p>
+        <h2>Additional Features</h2>
+        <p>If there is sufficient time, the following features will be added:</p>
+        <ul>
+            <li>Trash can location:
+                <ul>
+                    <li>It provides information on nearby trash can locations for user convenience. API data cannot be found, so data collection is needed.</li>
+                </ul></li>
+                <li>Real-time information:
+                    <ul>
+                        <li>It displays real-time data to indicate whether specific items are sold out or available in the vending machine.</li>
+                    </ul></li>
+                    <li>Gamification elements:
+                        <ul>
+                            <li>It incorporates gamification elements, such as stamp collecting, loyalty rewards, or roulette.</li>
+                        </ul></li>
+        </ul>
+        <h2>Required Technology</h2>
+        <p>The development of the vending machine app will require the following technologies:</p>
+        <ul>
+            <li>Front-End Development:
+                <ul>
+                    <li>HTML, CSS, and JavaScript for creating the user interface and interactive components. React.js or Angular.js for building a dynamic and responsive application.</li>
+                </ul></li>
+                <li>Back-End Development:
+                    <ul>
+                        <li>Node.js or Python as the server-side programming language. Express.js or Django is the web framework for handling HTTP requests and responses. PostgreSQL or MongoDB is the database management system for storing collected data.</li>
+                    </ul></li>
+                    <li>APIs and Data Sources:
+                        <ul>
+                            <li>Coca-Cola Bottlers Japan API for accessing vending machine data (sales data, inventory Information, machine performance metrics, consumer interaction data, and environmental condition are included). Also, collect vending machine data around the Minamikusatsu area. <a href="https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai?hl=en">https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai?hl=en</a></li>
+                        </ul></li>
+        </ul>
+        <h2>Requirement Engineer process</h2>
+        <p>User requirements</p>
+        <ul>
+            <li>Location-based search functionality: Users should be able to search for nearby vending machines based on location, address, or specific criteria (e.g., type of products).</li>
+            <li>Vending machine details: Users should have access to comprehensive information about each vending machine, including its location, product variety, price, payment options, sales data, inventory information, consumer interaction data, and environmental condition (more than 700,000 data, only focused on Japan).</li>
+            <li>User reviews and ratings: Users should be able to read and submit reviews and ratings for vending machines, helping others make informed decisions about their choices. It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap drinks or whether is broken.</li>
+            <li>Provider (user who provide information of vending machines) requirements</li>
+            <li>User reviews and ratings: Users should be able to read and submit reviews and ratings for vending machines, helping others make informed decisions about their choices. It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap drinks or whether is broken.</li>
+            <li>Feedback submission: Users should have the ability to provide feedback, report issues, or suggest improvements related to vending machines, contributing to the overall user experience and quality of service.</li>
+        </ul>
+        <h3>System requirements</h3>
+        <ul>
+            <li>Database management: A database should be maintained to store information about vending machine locations, product variety, price, user reviews, and other relevant data.</li>
+            <li>Geolocation services: The website should utilize geolocation services to accurately determine the user’s location and provide results related to nearby vending machines.</li>
+            <li>Search and filtering capabilities: The system should provide an effective and accurate search and filtering capabilities that allows users to find vending machines based on their location and specific criteria.</li>
+            <li>Data synchronization: The system should regularly update vending machine information, reviews, and ratings to ensure accuracy and provide users with up-to-date data.</li>
+            <li>Multi-platform responsive design: Websites should be accessible and optimized for a variety of devices, including desktops, tablets, and mobile phones, ensuring a user experience across different platforms.</li>
+        </ul>
+        <h3>System stakeholders</h3>
+        <p>System stakeholders for the website may include</p>
+        <ul>
+            <li>End-users (consumers)</li>
+            <li>Vending machine operators</li>
+            <li>Website developers</li>
+            <li>IT staff who are responsible for maintaining the website</li>
+            <li>Data logger who responsible for collecting vending machine information and ensuring its correctness on the website</li>
+            <li>Possibly advertisers</li>
+            <li>Sponsors.</li>
+        </ul>
+        <h2>Similar Application</h2>
+        <ul>
+            <li>Google Map</li>
+            <li>Open street map</li>
+            <li>Zenly</li>
+            <li>Airbnb</li>
+        </ul>
+
+        <footer>
+            Powered by <a href="https://simplecss.org/">Simple.css</a>
+            |
+            <a href="https://github.com/shutosheep/pbl3-website/">Source code</a>
+        </footer>
+    </body>
+</html>
