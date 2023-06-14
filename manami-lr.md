@@ -1,0 +1,22 @@
+# Geolocation and mapping Technology with Smart City - by Manami Yano
+
+At the current moment, smart cities are emerging as a result of the quick advancement of IT technology. This literature review describes how smart cities and location information are integrated and in what situations they are used.
+
+First, to track patients' ongoing health difficulties, sophisticated systems have evolved thanks to substantial advancements in health monitoring technology. Geolocation technology enables the real-time tracking and monitoring of patient's vital signs like blood pressure and body temperature. A proposed smart healthcare system enables continuous patient health monitoring by fusing GSM and GPS technology. Data is collected by certain sensors and compared to customizable thresholds established by healthcare professionals. A GSM module is used to send a short message service (SMS) to the doctor in an emergency along with measured values. Additionally, GPS gives the people being watched their current location. Within the framework of a smart city, this incorporation of geolocation technology enhances patient monitoring and makes efficient medical services possible. (Li, D. 2012)
+
+
+Second, geolocation technology has many applications and is crucial for the growth of smart cities. Geolocation facilitates location-based services, real-time navigation, and route optimization in the context of urban mobility. People can travel more smoothly and conveniently if they have access to the most recent information about traffic patterns, available public transportation routes, and parking spots. The management of urban resources and infrastructure is aided by geolocation. Informed decisions about resource allocation, infrastructure development, and land use can be made by authorities with the help of geolocation data integration in urban planning and management systems. This study helps pinpoint the best places for transportation networks, streamline energy distribution, and enhance waste disposal techniques. (Aziz, K. 2016)
+
+
+Third, geolocation technology is essential for improving emergency preparedness and management in smart cities. It provides effective resource dispatching, location-based alerts to locals during emergency situations, and real-time tracking of emergency vehicles. However, privacy problems arise when big data about people's whereabouts and activities is gathered by smart cities. A balance between security and privacy must be struck. It becomes crucial to implement data collection systems with privacy protection while still guaranteeing emergency response capabilities. In order to guarantee security and privacy, it is crucial to protect communications between users, servers, and networked devices. (Elmaghraby, A. 2014)
+
+
+Thus, geolocation technology is a key enabler in the context of smart cities. Its applications in urban transportation, public safety, infrastructure management, and healthcare monitoring support the creation of environments that are efficient, livable, and sustainable. Therefore, our application also seeks a better life by integrating location information and Smart City.
+
+
+References:
+Li, D. (2012, December 10). Full article: Geomatics for smart cities - concept, key techniques,and ... Geomatics for Smart Cities - Concept, Key Techniques,and Applications. https://www.tandfonline.com/doi/full/10.1080/10095020.2013.772803 
+Aziz, K. (2016, March 15). Smart real-time healthcare monitoring and tracking system ... - IEEE xplore. Smart real-time healthcare monitoring and tracking system using GSM/GPS technologies. https://ieeexplore.ieee.org/abstract/document/7460394 
+Elmaghraby, A. (2014, March 5). Cyber security challenges in smart cities: Safety, security and privacy. Journal of Advanced Research. https://www.sciencedirect.com/science/article/pii/S2090123214000290 
+
+

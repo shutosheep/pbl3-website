@@ -1,0 +1,21 @@
+#  Extensive data collection, How to use the data with Smart City - by Yang Minxu
+
+For a smart city, collecting data is an essential part. Data streams in from various avenues—social media, public records, sensors, and more—each presenting its data in distinct formats such as structured tables, unstructured text, or semi-structured XML data. This diversity necessitates advanced database systems for optimal management, classification, and eventual use.
+ 
+When tackling big data, one cannot overlook the significance of data sharing. Governmental bodies and city departments each hoard their troves of classified or public information, often resistant to share proprietary data. Furthermore, privacy regulations may limit data exchanges between entities. In the process of big data collection and use, we should not only promote effective data and information sharing, but also protect citizens' privacy rights.
+ 
+The vast pool of big data offers various processing and usage avenues. You might consider constructing a naive Bayes model using the mean and variance values of individual data items, which could be helpful in diverse scenarios including decision trees and database inquiries. Moreover, dealing with incomplete data—missing values due to sensor failure or intentional omission—is another challenge that's typically addressed with data imputation to enhance model efficiency.
+ 
+Big data has the potential to revolutionize various aspects of smart city applications—from simulating traffic flow to enhancing public safety and education. These applications demand consideration of data source and format, data management and classification, and privacy-preserving data sharing. Proper usage of big data not only enhances the efficacy and quality of these applications, but also contributes to improved city governance, economic growth, quality of life, and environmentally sustainable infrastructure.
+ 
+Take, for instance, the ATISMART model cited in "Applications of Big Data to Smart Cities," which uses acceleration time to simulate traffic flow as part of a smart city project. Its implementation relies on factors like city maps, cars, and smart signals, requiring resources like network sensors, traffic lights, and CAS as the mathematical core, with Java for the graphical user interface.
+ 
+Big data also arms decision-makers with the tools for improved planning and strategy. By analyzing user queries from a global search engine, an early warning system can be established for fast-spreading influenza outbreaks. Navigating this complex data network is a monumental task for big data applications given the potential trillion connections in a network with a million nodes. This complexity increases exponentially when dealing with large social network sites like Facebook, which boasts over a billion active users.
+ 
+In sum, big data collection and utilization is a multifaceted yet promising endeavor, calling for careful consideration of data sources and formats, data management and classification, and privacy-conscious data sharing. By processing big data, we can enhance smart city applications that improve urban governance, promote economic development, enhance quality of life, and encourage the creation of environmentally sustainable infrastructure.
+ 
+References:
+
+Al Nuaimi, E., Al Neyadi, H., Mohamed, N. et al. Applications of big data to smart cities. J Internet Serv Appl 6, 25 (2015). https://doi.org/10.1186/s13174-015-0041-5
+ 
+X. Wu, X. Zhu, G. -Q. Wu and W. Ding, "Data mining with big data," in IEEE Transactions on Knowledge and Data Engineering, vol. 26, no. 1, pp. 97-107, Jan. 2014, doi: 10.1109/TKDE.2013.109.

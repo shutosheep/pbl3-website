@@ -1,0 +1,186 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="simple-v1.css">
+    <title>PBL3 project website</title>
+</head>
+<h1 id="vending-machine-finder">~Vending Machine Finder~</h1>
+<p><img src="1686702298.png" /></p>
+<p>GroupI:<br />
+MANAMI Yano, WEI Xiaoang, SHUTO Tamaoka, YANG Minxu, SUN Wenhuan</p>
+<p>Welcome to the website about our vending machine search! In this website you will browse all the processes of the vending machine we designed to find the website design, especially the achievements made now. Thank you very much for taking the time to review our project progress.</p>
+<h2 id="group-schedule">Group Schedule:</h2>
+<p>Our schedule includes group meetings from 14:00 to 16:00 every Tuesday and from 14:30 to 15:30 every Wednesday. The schedule might change depending on the week. Most meetings are conducted face-to-face, but a ZOOM link is created just in case.</p>
+<p><a href="https://us05web.zoom.us/j/9687181572?pwd=cElOc3hpTWNWaHhjMVNCSUZPN1Z5dz09">https://us05web.zoom.us/j/9687181572?pwd=cElOc3hpTWNWaHhjMVNCSUZPN1Z5dz09</a></p>
+<h2 id="roles">Roles:</h2>
+<ul>
+<li>Project Manager- MANAMI Yano</li>
+<li>Literature Reviewer- YANG Minxu</li>
+<li>Communication Officer- WEI Xiaoang</li>
+<li>Senior Coder- SHUTO Tamaoka</li>
+<li>Junior Coder- SUN Wenhuan</li>
+<li>Each role was divided, but we will help each other regardless of role.</li>
+</ul>
+<h2 id="our-application">Our application:</h2>
+<p>Vending machine finder This app’s objective is to give users a simple way to locate nearby vending machines and obtain pertinent details including menu items, costs, and other essential data. For easy accessibility across various devices, the app will be developed as a website.</p>
+<h2 id="application-features">Application features:</h2>
+<p>The vending machine app will include the following core features:</p>
+<ul>
+<li>Location-based Search:
+<ul>
+<li>The API may include geolocation information for each vending machine, allowing for insights into the distribution and placement of devices.</li>
+</ul></li>
+<li>Detailed Information:
+<ul>
+<li>The app includes sales data, inventory information, machine performance metrics, consumer interaction data, and environmental condition (more than 700,000 data, only focused on Japan).</li>
+</ul></li>
+<li>Sales data:
+<ul>
+<li>It includes the quantity and type of beverages sold, prices, and timestamps of each transaction</li>
+</ul></li>
+<li>Inventory Information:
+<ul>
+<li>It includes the current inventory of the vending machines.</li>
+</ul></li>
+<li>Machine performance metrics:
+<ul>
+<li>It includes the operational status of the vending machines including uptime, downtime, maintenance records, and error reports.</li>
+</ul></li>
+<li>Consumer interaction data:
+<ul>
+<li>API capture data on consumer behavior including frequency of usage, popular beverage choices, and trends in purchasing patterns.</li>
+</ul></li>
+<li>Environmental condition:
+<ul>
+<li>It includes temperature, humidity, and power consumption of vending machines.</li>
+</ul></li>
+<li>Personalization:
+<ul>
+<li>It allows users to set filters to find specific items such as water</li>
+</ul></li>
+<li>Ratings and Reviews (social sharing):
+<ul>
+<li>It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap beverages or is broken.</li>
+</ul></li>
+</ul>
+<p>All information is included in Coca-Cola bottlers Japan API</p>
+<h2 id="additional-features">Additional Features:</h2>
+<p>If there is sufficient time, the following features will be added:</p>
+<ul>
+<li>Trash can location:
+<ul>
+<li>It provides information on nearby trash can locations for user convenience. API data cannot be found, so data collection is needed.</li>
+</ul></li>
+<li>Real-time information:
+<ul>
+<li>It displays real-time data to indicate whether specific items are sold out or available in the vending machine.</li>
+</ul></li>
+<li>Gamification elements:
+<ul>
+<li>It incorporates gamification elements, such as stamp collecting, loyalty rewards, or roulette.</li>
+</ul></li>
+</ul>
+<h2 id="required-technology">Required Technology:</h2>
+<p>The development of the vending machine app will require the following technologies:</p>
+<ul>
+<li>Front-End Development:
+<ul>
+<li>HTML, CSS, and JavaScript for creating the user interface and interactive components. React.js or Angular.js for building a dynamic and responsive application.</li>
+</ul></li>
+<li>Back-End Development:
+<ul>
+<li>Node.js or Python as the server-side programming language. Express.js or Django is the web framework for handling HTTP requests and responses. PostgreSQL or MongoDB is the database management system for storing collected data.</li>
+</ul></li>
+<li>APIs and Data Sources:
+<ul>
+<li>Coca-Cola Bottlers Japan API for accessing vending machine data (sales data, inventory Information, machine performance metrics, consumer interaction data, and environmental condition are included). Also, collect vending machine data around the Minamikusatsu area. <a href="https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai?hl=en">https://cloud.google.com/blog/topics/developers-practitioners/coca-cola-bottlers-japan-collects-insights-700000-vending-machines-vertex-ai?hl=en</a></li>
+</ul></li>
+</ul>
+<h2 id="requirement-engineer-process">Requirement Engineer process:</h2>
+<p>User requirements</p>
+<ul>
+<li>Location-based search functionality: Users should be able to search for nearby vending machines based on location, address, or specific criteria (e.g., type of products).</li>
+<li>Vending machine details: Users should have access to comprehensive information about each vending machine, including its location, product variety, price, payment options, sales data, inventory information, consumer interaction data, and environmental condition (more than 700,000 data, only focused on Japan).</li>
+<li>User reviews and ratings: Users should be able to read and submit reviews and ratings for vending machines, helping others make informed decisions about their choices. It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap drinks or whether is broken.</li>
+<li>Provider (user who provide information of vending machines) requirements</li>
+<li>User reviews and ratings: Users should be able to read and submit reviews and ratings for vending machines, helping others make informed decisions about their choices. It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap drinks or whether is broken.</li>
+<li>Feedback submission: Users should have the ability to provide feedback, report issues, or suggest improvements related to vending machines, contributing to the overall user experience and quality of service.</li>
+</ul>
+<h3 id="system-requirements">System requirements</h3>
+<ul>
+<li>Database management: A database should be maintained to store information about vending machine locations, product variety, price, user reviews, and other relevant data.</li>
+<li>Geolocation services: The website should utilize geolocation services to accurately determine the user’s location and provide results related to nearby vending machines.</li>
+<li>Search and filtering capabilities: The system should provide an effective and accurate search and filtering capabilities that allows users to find vending machines based on their location and specific criteria.</li>
+<li>Data synchronization: The system should regularly update vending machine information, reviews, and ratings to ensure accuracy and provide users with up-to-date data.</li>
+<li>Multi-platform responsive design: Websites should be accessible and optimized for a variety of devices, including desktops, tablets, and mobile phones, ensuring a user experience across different platforms.</li>
+</ul>
+<h3 id="system-stakeholders">System stakeholders</h3>
+<p>System stakeholders for the website may include</p>
+<ul>
+<li>End-users (consumers)</li>
+<li>Vending machine operators</li>
+<li>Website developers</li>
+<li>IT staff who are responsible for maintaining the website</li>
+<li>Data logger who responsible for collecting vending machine information and ensuring its correctness on the website</li>
+<li>Possibly advertisers</li>
+<li>Sponsors.</li>
+</ul>
+<h2 id="literature-review">Literature Review:</h2>
+<p>Click each link to view their literature review!</p>
+<ul>
+<li><a href="/manami-lr.html">Geolocation and mapping Technology with Smart City - by Manami Yano</a></li>
+<li><a href="/shuto-lr.html">Daya sources and APIs with Smart City - by Shuto Tamaoka</a></li>
+<li><a href="wei-lr.html">Smart city initiatives and related applications- by Wei xiaoang</a></li>
+<li><a href="sun-lr.html">User Experience and interface design with Smart City - by Sun Wenhuan</a></li>
+<li><a href="yang-lr.html">Extensive data collection, How to use the data with Smart City - by Yang Minxu</a></li>
+</ul>
+<h2 id="similar-application">Similar Application:</h2>
+<ul>
+<li>Google Map</li>
+<li>Open street map</li>
+<li>Zenly</li>
+<li>Airbnb</li>
+</ul>
+<h2 id="our-vending-machine-finder-survey">Our Vending Machine Finder Survey:</h2>
+<p>Welcome to our Vending Machine Finder survey! Your participation can help us better understand the requirements of users when using vending machines so that we can design websites to find vending machines. We value your opinion on this topic. Thank you for taking time out of your busy schedule to participate in this survey.</p>
+<p><a href="https://forms.gle/CNiGcM3BMxpCt1ai6">https://forms.gle/CNiGcM3BMxpCt1ai6</a></p>
+<h2 id="our-progress">Our Progress:</h2>
+<ul>
+<li>2023 June 3rd / 3 hours during the class
+<ul>
+<li>Decided on the role of our team</li>
+<li>Discussed the topic of our application (brought 5 ideas first)</li>
+<li>Gained feedback from a professor and TAs</li>
+<li>Decided the app that we will develop, the app contents and required technology</li>
+<li>Assigned the topic of literature review and started writing it</li>
+</ul></li>
+<li>2023 June 6th / 2 hours hybrid (face-to-face and Zoom)
+<ul>
+<li>Discussed what we need to do this week (weekly report, app features, etc.)</li>
+<li>Wrote a document of our final idea</li>
+</ul></li>
+<li>2023 June 7th / 3 hours during the class
+<ul>
+<li>Developed our ideas</li>
+<li>Discussed about similar applications</li>
+<li>Started creating webcite for showing our ideas and progress</li>
+</ul></li>
+<li>2023 June 9th / 45 minutes on Zoom
+<ul>
+<li>Assined tasks to each team member</li>
+<li>Checked each other progress</li>
+</ul></li>
+<li>2023 June 12th / 30 minutes face-to-face
+<ul>
+<li>Checked each other progress</li>
+<li>Assined tasks that must be submitted by tomorrow</li>
+</ul></li>
+<li>2023 June 13th / 2 hours and 30 minutes face-to-face
+<ul>
+<li>Checked all member’s literature reviews and connected them and conclude them.</li>
+<li>Created a survey</li>
+<li>Completed a requirements document</li>
+<li>Researched about similar applications</li>
+<li>Created a webcite</li>
+</ul></li>
+</ul>

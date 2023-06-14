@@ -1,0 +1,16 @@
+# Data sources and APIs with Smart City - by Shuto Tamaoka
+
+
+                                   
+Data collection has been one of the important process during the research. This data collection can be completed with various ways. However, using the Application Programming Interfaces has been one of the popular way for collecting the data. But there seems to be negative points with this method. I will list some negative points and one of the method they use to mitigate the negatives, regarding the usage of APIs of social media companies provide .
+        Firstly, it lacks reliability. Although the large amount of data collected with APIs are useful, it is difficult to determine if the data is reliable or not. The problem with this is that the API provider lacks the transparent of API they provide. For example, in case of Twitter API, they could remove the commercialized specific sets of data. Another reason which lacks the reliability is that there are limited number of API calls for an hour. There are possibilities that there will be missing data but without noticing it. (Lomborg, S. & Bechman, A. 2014)
+        Secondly, there might be legal or ethical issues. This is because the content which APIs provide might be considered as private for those who are participating. For instance, Facebook content can be considered as semi-private although, it is likely that the content is more public by default. (Stutman, Gross & Acquisti 2012) Although the content which we post on social media may include personal informations, it is unclear that using what information is considered as privacy sensitive action.
+        Thirdly, the anonymization is used during the procedure of data collection and data processing. Anonymizaing the data when publishing the papers to public has been the standard in this field. However it is said that on Twitter, it is possible to expose the author’s identity with string search of text from the acount’s tweet. (cf. Bchmann forthcoming; Lomborg 2012) Although the anonymization method will certainlly mitigate the effect to identify the users, it might be impossible to completely anonymize the used datasets or charts produced with previous datasets.
+        Since our team’s goal is to create a map which contains various information such as vending machine, trash cans, restrooms, etc… I assume we do not have to care much about data privacy when using the APIs. However we do need to annonymize the dataset, and the data we produced with it when we are using the data which can violate one’s privacy.
+        
+References
+
+Lomborg, S., & Bechmann, A. (2014). Using APIs for data collection on social media. The Information Society, 30(4), 256-265. https://doi.org/10.1080/01972243.2014.91527
+Stutzman, F., Gross and A. Acqquisti 2012. Silent Listeners: The evolution of Privacy and Disclosure on Facebook, Journal of Privacy and Confidentiality, 4(2), p. 7-41.
+Lomborg, S: & Bechmann, A. (2014) Using APIs for data collection on social media. The Information Society, vol30(4) [Post-print version]
+
