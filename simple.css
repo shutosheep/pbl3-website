@@ -3,17 +3,17 @@
 :root,
 ::backdrop {
   /* Set sans-serif & mono fonts */
-  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
+  --sans-font: -apple-system*, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Nimbus Sans L", "Roboto", "Noto Sans", "Segoe UI", Arial, Helvetica,
     "Helvetica Neue", sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --mono-font: "Consolas", "Menlo", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace";
   --standard-border-radius: 5px;
 
   
 
   /* Default (light) theme */
   --bg: #fff;
-  --accent-bg: #a5b7fc;
+  --accent-bg: #dee3f6;
   --text: #212121;
   --text-light: #585858;
   --border: #374cab;
@@ -669,7 +669,7 @@ dialog::backdrop {
 }
 
 /*Header*/
-@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap"); */
 *,
 *:before,
 *:after {
@@ -696,38 +696,38 @@ body {
 @import url(https://fonts.googleapis.com/css?family=Hind:700);
 
 span {
-  color: transparent;
-  animation: blur 10s ease-out infinite;
-  -webkit-animation: blur 10s ease-out infinite;
+  /* color: transparent; */
+  animation: blur 6s ease-out infinite;
+  -webkit-animation: blur 6s ease-out infinite; 
 }
 
 span:nth-child(1) {
   animation-delay: 0.1s;
-  -webkit-animation-delay: 0.1s;
+   -webkit-animation-delay: 0.1s; 
 }
 span:nth-child(2) {
   animation-delay: 0.2s;
-  -webkit-animation-delay: 0.2s;
+   -webkit-animation-delay: 0.2s; 
 }
 span:nth-child(3) {
   animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
+   -webkit-animation-delay: 0.3s; 
 }
 span:nth-child(4) {
   animation-delay: 0.4s;
-  -webkit-animation-delay: 0.4s;
+   -webkit-animation-delay: 0.4s; 
 }
 span:nth-child(5) {
   animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
+   -webkit-animation-delay: 0.5s; 
 }
 span:nth-child(6) {
   animation-delay: 0.6s;
-  -webkit-animation-delay: 0.6s;
+   -webkit-animation-delay: 0.6s; 
 }
 span:nth-child(7) {
   animation-delay: 0.7s;
-  -webkit-animation-delay: 0.7s;
+   -webkit-animation-delay: 0.7s; 
 }
 
 @keyframes blur {
