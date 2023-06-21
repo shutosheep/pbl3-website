@@ -13,11 +13,11 @@
 
   /* Default (light) theme */
   --bg: #fff;
-  --accent-bg: #f5f7ff;
+  --accent-bg: #a5b7fc;
   --text: #212121;
   --text-light: #585858;
-  --border: #898EA4;
-  --accent: #0d47a1;
+  --border: #374cab;
+  --accent: #0d3e88;
   --code: #d81b60;
   --preformatted: #444;
   --marked: #ffdd33;
@@ -32,9 +32,10 @@
   ::backdrop {
     color-scheme: dark;
     --bg: #212121;
-    --accent-bg: #2b2b2b;
+    --accent-bg: #4d4d4c;
     --text: #dcdcdc;
     --text-light: #ababab;
+    --border: #bca548;
     --accent: #ffb300;
     --code: #f06292;
     --preformatted: #ccc;
@@ -730,23 +731,23 @@ span:nth-child(7) {
 }
 
 @keyframes blur {
-  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
-  5%    {text-shadow:  0 0 90px #fff;}
+  0%    {text-shadow:  0 0 100px text; opacity:0;}
+  5%    {text-shadow:  0 0 90px text;}
   15%   {opacity: 1;}
-  20%   {text-shadow:  0 0 0px #fff;}
-  80%   {text-shadow:  0 0 0px #fff;}
+  20%   {text-shadow:  0 0 0px text;}
+  80%   {text-shadow:  0 0 0px text;}
   85%   {opacity: 1;}
-  95%   {text-shadow:  0 0 90px #fff;}
-  100%  {text-shadow:  0 0 100px #fff; opacity:0;}
+  95%   {text-shadow:  0 0 90px text;}
+  100%  {text-shadow:  0 0 100px text; opacity:0;}
 }
 
 @-webkit-keyframes blur {
-  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
-  5%    {text-shadow:  0 0 90px #fff;}
+  0%    {text-shadow:  0 0 100px text; opacity:0;}
+  5%    {text-shadow:  0 0 90px text;}
   15%   {opacity: 1;}
-  20%   {text-shadow:  0 0 0px #fff;}
-  80%   {text-shadow:  0 0 0px #fff;}
+  20%   {text-shadow:  0 0 0px text;}
+  80%   {text-shadow:  0 0 0px text;}
   85%   {opacity: 1;}
-  95%   {text-shadow:  0 0 90px #fff;}
-  100%  {text-shadow:  0 0 100px #fff; opacity:0;}
+  95%   {text-shadow:  0 0 90px text;}
+  100%  {text-shadow:  0 0 100px text; opacity:0;}
 }
