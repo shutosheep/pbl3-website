@@ -8,6 +8,8 @@
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   --standard-border-radius: 5px;
 
+  
+
   /* Default (light) theme */
   --bg: #fff;
   --accent-bg: #f5f7ff;
@@ -20,6 +22,8 @@
   --marked: #ffdd33;
   --disabled: #efefef;
 }
+
+.resizeimage img { width: 100vw; }
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
@@ -151,6 +155,7 @@ h3 {
 
 /* Reduce header size on mobile */
 @media only screen and (max-width: 720px) {
+
   h1 {
     font-size: 2.5rem;
   }
@@ -165,6 +170,9 @@ h3 {
 
   h4 {
     font-size: 1.25rem;
+  }
+  h5 {
+    font-size: 4.5rem;
   }
 }
 
@@ -659,4 +667,85 @@ dialog::backdrop {
 }
 
 /*Header*/
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 500;
+}
+.section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+@import url(https://fonts.googleapis.com/css?family=Hind:700);
+
+span {
+  color: transparent;
+  animation: blur 10s ease-out infinite;
+  -webkit-animation: blur 10s ease-out infinite;
+}
+
+span:nth-child(1) {
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+span:nth-child(2) {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+span:nth-child(3) {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+span:nth-child(4) {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+span:nth-child(5) {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+span:nth-child(6) {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+span:nth-child(7) {
+  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s;
+}
+
+@keyframes blur {
+  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
+  5%    {text-shadow:  0 0 90px #fff;}
+  15%   {opacity: 1;}
+  20%   {text-shadow:  0 0 0px #fff;}
+  80%   {text-shadow:  0 0 0px #fff;}
+  85%   {opacity: 1;}
+  95%   {text-shadow:  0 0 90px #fff;}
+  100%  {text-shadow:  0 0 100px #fff; opacity:0;}
+}
+
+@-webkit-keyframes blur {
+  0%    {text-shadow:  0 0 100px #fff; opacity:0;}
+  5%    {text-shadow:  0 0 90px #fff;}
+  15%   {opacity: 1;}
+  20%   {text-shadow:  0 0 0px #fff;}
+  80%   {text-shadow:  0 0 0px #fff;}
+  85%   {opacity: 1;}
+  95%   {text-shadow:  0 0 90px #fff;}
+  100%  {text-shadow:  0 0 100px #fff; opacity:0;}
+}
