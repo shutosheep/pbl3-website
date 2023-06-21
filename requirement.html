@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-    <title>PBL3 Group I website</title>
+    <title>PBL3 Group I Website</title>
     <link rel="stylesheet" href="simple.css" />
 </head>
 
@@ -15,7 +15,11 @@
             <a href="lr.html">Literature Review</a>
             <a href="survey.html">Survey</a>
         </nav>
-        <h1 class="title">PBL3 Group I website</h1>
+        <h1>
+            <span>PBL3</span> 
+            <span>GroupI</span> 
+            <span>Website</span> 
+        </h1>
     </header>
 
     <h2>Required Technology</h2>
@@ -35,25 +39,143 @@
                         </ul></li>
         </ul>
 
-        <h2>Requirement Engineer process</h2>
-        <h3>User requirements</h3>
+        <h2>Requirement Engineer Process</h2>
+
+        <h3>User Requirements</h3>
         <ul>
             <li>Location-based search functionality: Users should be able to search for nearby vending machines based on location, address, or specific criteria (e.g., type of products).</li>
             <li>Vending machine details: Users should have access to comprehensive information about each vending machine, including its location, product variety, price, payment options, sales data, inventory information, consumer interaction data, and environmental condition (more than 700,000 data, only focused on Japan).</li>
             <li>User reviews and ratings: Users should be able to read and submit reviews and ratings for vending machines, helping others make informed decisions about their choices. It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap drinks or whether is broken.</li>
-            <li>Provider (user who provide information of vending machines) requirements</li>
-            <li>User reviews and ratings: Users should be able to read and submit reviews and ratings for vending machines, helping others make informed decisions about their choices. It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap drinks or whether is broken.</li>
+        </ul>
+
+        <h3>Provider (user who provide information of vending machines) Requirements</h3>
+        <ul>
+            <li> User reviews and ratings: Users should be able to read and submit reviews and ratings for vending machines, helping others make informed decisions about their choices. It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap drinks or whether is broken.</li>
             <li>Feedback submission: Users should have the ability to provide feedback, report issues, or suggest improvements related to vending machines, contributing to the overall user experience and quality of service.</li>
         </ul>
-        <h3>System requirements</h3>
+
+        <h3>System Requirements</h3>
         <ul>
             <li>Database management: A database should be maintained to store information about vending machine locations, product variety, price, user reviews, and other relevant data.</li>
-            <li>Geolocation services: The website should utilize geolocation services to accurately determine the user’s location and provide results related to nearby vending machines.</li>
+            <li>Geolocation services: The website should utilize geolocation services to accurately determine the user's location and provide results related to nearby vending machines.</li>
             <li>Search and filtering capabilities: The system should provide an effective and accurate search and filtering capabilities that allows users to find vending machines based on their location and specific criteria.</li>
             <li>Data synchronization: The system should regularly update vending machine information, reviews, and ratings to ensure accuracy and provide users with up-to-date data.</li>
             <li>Multi-platform responsive design: Websites should be accessible and optimized for a variety of devices, including desktops, tablets, and mobile phones, ensuring a user experience across different platforms.</li>
+
         </ul>
-        <h3>System stakeholders</h3>
+
+        <h3>Functional Requirements</h3>
+        <p>The vending machine app will include the following core features:</p>
+        <ul>
+        <li>Location-based Search
+            <ul>
+                <li>The API may include geolocation information for each vending machine, allowing for insights into the distribution and placement of devices. 
+                </li>
+            </ul>
+        </li>
+
+        <li>Detailed Information
+            <ul>
+                <li>The app includes sales data, inventory information, machine performance metrics, consumer interaction data, and environmental condition (more than 700,000 data, only focused on Japan).
+                </li>
+            </ul>
+        </li>
+        
+        <li>Sales data
+            <ul>
+                <li>It includes the quantity and type of beverages sold, prices, and timestamps of each transaction 
+                </li>
+            </ul>
+        </li>
+
+        <li>Inventory Information
+            <ul>
+                <li>It includes the current inventory of the vending machines. 
+                </li>
+            </ul>
+        </li>
+
+        <li>Machine performance metrics
+            <ul>
+                <li>It includes the operational status of the vending machines including uptime, downtime, maintenance records, and error reports.
+                </li>
+            </ul>
+        </li>
+
+        <li>Consumer interaction data
+            <ul>
+                <li>API capture data on consumer behavior including frequency of usage, popular beverage choices, and trends in purchasing patterns.
+                </li>
+            </ul>
+        </li>
+
+        <li>Environmental condition
+            <ul>
+                <li>It includes temperature, humidity, and power consumption of vending machines.
+                </li>
+            </ul>
+        </li>
+
+        <li>Personalization
+            <ul>
+                <li>It allows users to set filters to find specific items such as water.
+                </li>
+            </ul>
+        </li>
+
+        <li>Ratings and reviews (social sharing)
+            <ul>
+                <li>It rates the vending machine from 1 to 5 stars, and shares information such as whether this vending machine has cheap beverages or is broken. 
+                </li>
+            </ul>
+        </li>
+        </ul>
+
+        <h3>Non-functional Requirements</h3>
+        <ul>
+        <li>Performance
+            <ul>
+                <li>Websites should respond to real-time search results as quickly as possible, reducing latency and load times.
+                </li>
+            </ul>
+        </li>
+
+        <li>Response time
+            <ul>
+                <li>Use the vending machine Finder website, working 24 hours a day.
+            </ul>
+        </li>
+        
+        <li>Security
+            <ul>
+                <li>The website should adopt adequate security measures, including encryption of user data. The system shall comply with privacy regulations and protect user data from unauthorized access or misuse.
+                </li>
+            </ul>
+        </li>
+
+        <li>Compatibility
+            <ul>
+                <li>The page should be compatible with various platforms and devices, such as mobile phones, computers, etc.
+                </li>
+            </ul>
+        </li>
+
+        <li>UI design
+            <ul>
+                <li>The user interface should be intuitive and user-friendly for users of different ages.
+                </li>
+            </ul>
+        </li>
+
+        <li>Language system
+            <ul>
+                <li>Web pages should support multiple languages according to user preferences.
+                </li>
+            </ul>
+        </li>
+        </ul>
+
+        <h3>System Stakeholders</h3>
         <p>System stakeholders for the website may include</p>
         <ul>
             <li>End-users (consumers)</li>
