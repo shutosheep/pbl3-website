@@ -751,3 +751,20 @@ span:nth-child(7) {
   95%   {text-shadow:  0 0 90px text;}
   100%  {text-shadow:  0 0 100px text; opacity:0;}
 }
+
+/* 横並び */
+
+.flex {
+  display: flex; /*横並び*/
+}
+.flex .image {
+  width: 130px; /*画像サイズ指定*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .text {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
