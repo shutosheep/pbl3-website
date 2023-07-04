@@ -29,15 +29,35 @@
 
     <h2>Activity Diagram</h2>
     <img src="messageImage_1687848609375.jpg"></img>
+    <p>This activity diagram shows the functional flow of Vending Machine Finder. First, the user needs to log in, and then enter the homepage of our website. The home page has three functions, two of which need to be connected to the Internet, which are to find vending machines by user location and to find vending machines by product. The other one does not need to be networked and is a random selection function.</p>
+    <p>The process for using each function is as follows:</p>
+    <li>Locate the vending machine according to the user's location: identify the user's location, check whether it is connected to the Internet, if the Internet is successful, it displays the location of the vending machine closest to the user's location, displays its menu (including products, prices, etc.), and displays the recommended path to the vending machine. Exit after use (i.e., close the page).
+    </li>
+    <li>Find vending machine by product: The user enters the name of the product to search, if the network is successful, it displays the location of the vending machine selling the product and displays its menu and recommended path. Exit after use (i.e., close the page).
+    </li>
+    <li>Random selection: Open the random selection page, click the Start button, and the system will randomly select a product for the user, and get the location, menu and recommended path of the vending machine.
+    </li>
+    <br>
 
     <h2>State Diagram</h2>
     <img src="State Diagram-Login.png"></img>
+    <li>Login
+    </li>
+    <li>Identify User’s Location
+    </li>
+    <li>Find Vending Machine Location
+    </li>
+    <br>
 
     <h2>System Architecture Diagram</h2>
     <img src="System Architecture.png"></img>
+    <p>The diagram shows the Vending Machine Finder system architecture, which is divided into three parts: users, features and API. In our Vending Machine Finder system, users can use all the features including logging in, identifying the location, entering the product name and using random selection to get the vending machine location, menu and best path. These features currently use our self-created Vending Machine Finder API, our self-collected vending machine data set, and the Open Street Map API.</p>
+    <br>
 
     <h2>System Flow Chart</h2>
     <img src="Flow Chart.png"></img>
+    <p>This flow chart shows the operating process of Vending Machine Finder. Starting from the login section, the system will confirm whether the user has a web account, if not, the user needs to sign up, if so, the system will use the API created by ourselves and enter the home page. Once on the home page, the system is divided into two running processes, one is related to finding the location of the vending machine, and the other is related to randomly selecting the product. The first is to find the vending machine location. It will perform different filtering according to the different needs of the users. For now, we have chosen to filter searches in our own collection of vending machine data around Minamikusatsu based on the user's location and product name. The Open Street Map API is then used to display the location of the vending machine that meets the different needs and extract its menu and the best path to get to that location from the database. The second is to randomly select product features. After entering the function page, click the Start button to start the function. The system pulls a random item from the vending machine database. If the user is not satisfied with the product, the random selection is made again. If the user is satisfied, the location of the vending machine selling the product, the menu and the best path to get to the location are displayed.</p>
+    <br>
 
     <footer>
         Powered by <a href="https://simplecss.org/">Simple.css</a>
