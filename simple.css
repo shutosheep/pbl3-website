@@ -775,3 +775,41 @@ span:nth-child(7) {
   margin-right: auto;
   width: 50%;
 }
+
+
+
+
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #030303;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  margin-bottom: 5px;
+}
+
+.fa-solid {
+  margin-right: 5px;
+}
